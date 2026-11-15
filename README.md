@@ -1,35 +1,32 @@
 # AV Madhuram Sandwich — Website Concept
 
-A responsive, static website prototype prepared by Aarunya Web Solutions.
+Responsive static website concept prepared by Aarunya Web Solutions.
 
-## Run locally
+## Current concept sections
+- Brand introduction and Instagram community proof
+- Family / founders story section
+- Signature Jumbo Sandwich feature
+- Food and menu preview
+- Brand experience / values
+- Outlet finder with Indore, Ujjain and Gwalior filters
+- Franchise and business enquiry sections
+- Illustrative AV Business Hub dashboard
+- Contact links and front-end-only enquiry form
 
-Open `index.html` in a browser. No npm, build step, or package installation is required.
+## Run and deploy
+Open `index.html` directly. No npm, build command or package installation is required.
+Vercel settings: Framework **Other**, Build Command empty, Output Directory `.`.
 
-## Deploy to Vercel
+## Verification before official launch
+- Confirm approved brand copy, founder/family history and all brand claims.
+- Confirm the reported 800g product specification, vegetarian claim, menu, current prices and availability.
+- Confirm all outlet addresses, active status, hours, map pins and official Google Business Profile links.
+- Gwalior is currently represented as a city-level new-outlet placeholder only. Replace it with the exact approved address and map pin once confirmed.
+- Confirm contact numbers and permission to publish them.
+- Replace third-party reference photographs with brand-owned / brand-approved photographs before production. Current remote images are for concept presentation and may be subject to third-party rights and availability.
+- Confirm franchise model, investment, eligibility, fees, territory and support terms before publishing.
+- Connect the enquiry form to an approved WhatsApp, email or CRM endpoint. It currently does not transmit data.
+- Connect analytics, Search Console, privacy notice and any online ordering integration before production.
 
-1. Upload the contents of this folder to a GitHub repository.
-2. Import the repository into Vercel.
-3. Framework preset: **Other**.
-4. Build command: leave empty.
-5. Output directory: `.` (or leave the default if Vercel detects the static site).
-6. Deploy.
-
-A `vercel.json` is included to serve the static site and route unknown paths to the homepage.
-
-## Before presenting as an official/live site
-
-- Confirm the approved brand name, logo, brand colours, founders' story and all outlet details.
-- Verify each outlet's exact address, map pin, operating hours, active status and Google Business Profile URL.
-- Replace stock photography with brand-approved food, store, team and founder photographs.
-- Replace the illustrative food/menu section with the approved menu and prices.
-- Confirm franchise model, eligibility, investment, fees, territory availability and support terms before publishing claims.
-- Connect the enquiry form to an approved email, WhatsApp endpoint or CRM. The current form is intentionally a front-end demo and does not transmit data.
-- Connect analytics, Search Console, consent/privacy notices and any ordering integrations before production launch.
-- Confirm permission to use the brand name, social links, founders' names and supplied profile material.
-
-## Notes
-
-- Outlet locations and the 135K Instagram community reference were taken from the supplied profile screenshot and initial research; verify before public launch.
-- Dashboard is illustrative UI only. It is not a connected admin system or AI product.
-- External image URLs and Google Fonts require an internet connection.
+## Research notes
+Public AV Madhuram-related sources differ on the exact family-business timeline. This concept avoids publishing a specific founding year or reconciling those conflicting accounts. The 800g / three-layer Jumbo description and vegetarian positioning remain subject to brand approval.
