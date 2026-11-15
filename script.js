@@ -9,7 +9,6 @@ mainNav?.querySelectorAll('a').forEach(link => link.addEventListener('click', ()
   mainNav.classList.remove('open');
   menuToggle?.setAttribute('aria-expanded', 'false');
 }));
-
 const cityButtons = [...document.querySelectorAll('.city-tab')];
 const outletCards = [...document.querySelectorAll('.outlet-card')];
 const searchInput = document.querySelector('#outlet-search');
@@ -24,7 +23,8 @@ function filterOutlets() {
     card.hidden = !show;
     if (show) visible++;
   });
-  document.querySelector('#no-results').hidden = visible !== 0;
+  const noResults = document.querySelector('#no-results');
+  if (noResults) noResults.hidden = visible !== 0;
 }
 cityButtons.forEach(button => button.addEventListener('click', () => {
   activeCity = button.dataset.city;
@@ -32,9 +32,10 @@ cityButtons.forEach(button => button.addEventListener('click', () => {
   filterOutlets();
 }));
 searchInput?.addEventListener('input', filterOutlets);
-
-document.querySelector('#year').textContent = new Date().getFullYear();
+const year = document.querySelector('#year');
+if (year) year.textContent = new Date().getFullYear();
 document.querySelector('#enquiry-form')?.addEventListener('submit', event => {
   event.preventDefault();
-  document.querySelector('#form-feedback').textContent = 'Thanks — this is a concept demonstration. Connect the approved brand contact or CRM to receive live enquiries.';
+  const feedback = document.querySelector('#form-feedback');
+  if (feedback) feedback.textContent = 'Thanks — this is a concept demonstration. Connect the approved brand contact or CRM to receive live enquiries.';
 });
