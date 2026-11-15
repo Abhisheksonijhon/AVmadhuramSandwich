@@ -30,3 +30,13 @@ Vercel settings: Framework **Other**, Build Command empty, Output Directory `.`.
 
 ## Research notes
 Public AV Madhuram-related sources differ on the exact family-business timeline. This concept avoids publishing a specific founding year or reconciling those conflicting accounts. The 800g / three-layer Jumbo description and vegetarian positioning remain subject to brand approval.
+
+## Reference image sources
+The concept currently uses public food / brand reference images from:
+- `https://images.bhaskarassets.com/thumb/400x711/web2images/521/2023/08/02/indore-jayka00001102still005_1690997941.jpg`
+- `https://files.yappe.in/place/full/madhuram-sandwich-159817.webp`
+- `https://s2.dmcdn.net/v/UTcf11ZbyqMagxkx0/x1080`
+- `https://img05.restaurantguru.com/r38c-Madhuram-Sandwich-sandwich.jpg`
+- `https://img05.restaurantguru.com/ree0-AV-Madhuram-Sandwich-Itwariya-Bazaar-food-2025-09.jpg`
+
+These are third-party references, not client-owned assets. Obtain permission or replace them with original photographs supplied by the brand before production launch.
